@@ -39,19 +39,19 @@ export default defineConfig(() => {
         },
         png: {
           // https://sharp.pixelplumbing.com/api-output#png
-          quality: 100,
+          quality: 70,
         },
         jpeg: {
           // https://sharp.pixelplumbing.com/api-output#jpeg
-          quality: 100,
+          quality: 70,
         },
         jpg: {
           // https://sharp.pixelplumbing.com/api-output#jpeg
-          quality: 100,
+          quality: 70,
         },
         tiff: {
           // https://sharp.pixelplumbing.com/api-output#tiff
-          quality: 100,
+          quality: 70,
         },
         // gif does not support lossless compression
         // https://sharp.pixelplumbing.com/api-output#gif
