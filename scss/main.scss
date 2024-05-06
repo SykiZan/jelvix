@@ -1,0 +1,18 @@
+@import "header";
+@import "whatWeDo";
+@import "aboutUs";
+@import "ourWork";
+@import "testimonials";
+@import "footer";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#app {
+  max-width: 1400px;
+  margin: 0 auto;
+  font-family: "Hind Vadorada", sans-serif;
+}

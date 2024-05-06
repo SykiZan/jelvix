@@ -1,0 +1,135 @@
+.what-we-do {
+  margin-top: 146px;
+  background-image: url("/public/images/bg-what-we-do.png");
+  height: 652px;
+  margin-bottom: 60px;
+  @media (max-width: 900px) {
+    margin-top: 50px;
+    
+    height: fit-content;
+    padding-bottom: 30px;
+  }
+}
+.what-we-do-header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 92px;
+  font-size: 48px;
+  color: #331b3b;
+  @media (max-width: 900px) {
+    padding-top: 30px;
+  }
+  @media (max-width: 545px) {
+    font-size: 40px;
+  }
+}
+
+.what-we-do-header--1 {
+  font-weight: bold;
+}
+
+
+.business-what-we-do {
+  position: relative;
+  span {
+    position: inherit;
+    z-index: 20;
+  }
+}
+
+.orange-line-what-we-do {
+  position: absolute;
+  width: 95%;
+  height: 12px;
+  background-color: #fdc221;
+  bottom: 7px;
+  left: 5px;
+  z-index: 10;
+  @media (max-width: 900px) {
+    height: 7px;
+  }
+}
+
+.what-we-do-slider-main-wrap {
+  display: flex;
+  gap: 40px;
+  margin-top: 95px;
+  @media (max-width: 900px) {
+    margin-top: 50px;
+  }
+  @media (max-width: 800px) {
+    flex-direction: column-reverse;
+  }
+}
+.what-we-do-swiper {
+
+  flex-shrink: 1;
+  @media (max-width: 800px) {
+    flex-shrink: 0;
+  }
+}
+
+
+
+.swiper-nav {
+  flex: 225px 1 0;
+  height: 200px;
+
+  display: flex;
+  gap: 15px;
+  align-items: flex-end;
+  justify-content: flex-end;
+  @media (max-width: 1000px) {
+    margin-top: 50px;
+    flex-basis: 120px;
+  }
+  @media (max-width: 800px) {
+    margin-top: 0;
+    justify-content: center;
+    flex: 35px 0 0;
+  }
+}
+
+
+
+.what-we-do-swiper {
+  width: 95%;
+  margin-left: 15px !important;
+}
+
+.what-we-do-swiper-slide {
+  height: 200px;
+  width: 308px !important;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 18px;
+  cursor: pointer;
+  
+  @media (max-width: 500px) {
+    width: 300px !important;
+    
+  }
+}
+
+.swiper-btn {
+  cursor: pointer;
+}
+
+.swiper-btn-prev {
+  transform: rotate(180deg);
+}
+
+.what-we-do-card-header {
+  color: #331b3b;
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 137%;
+  margin-top: 13px;
+  margin-bottom: 6px;
+}
+
+.what-we-do-card-description {
+  color: rgba(51, 27, 59, 0.66);
+  line-height: 145%;
+}
